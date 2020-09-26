@@ -1,0 +1,19 @@
+.list_holder
+{
+    padding: 20px;
+    height: 100vh;
+
+    overflow: auto;
+}
+
+.list_name
+{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+
+    line-height: 120%;
+    font-size: 50px;
+
+    color: #fff;
+}

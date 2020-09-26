@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
+
+body, *
+{
+    --ion-default-font: 'EB Garamond', serif;
+    font-family: 'EB Garamond', serif;
+}
+
+.white_row
+{
+    background-color: #fff;
+}
+.no_padding
+{
+    padding: 0;
+}
+.dash_title
+{ 
+    font-weight: bold;
+    text-shadow: 0px 1px 0px rgba(0,0,0, 0.7);
+}
+
+.main_restoran_picture
+{
+    height: 200px;
+    background-image: url('../../assets/images/restoran.jpg');
+    background-size: cover;
+}
+
+.dashboard_toolbar
+{
+    --background: #d2442b;
+}
+
+
+.restorant_name
+{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+    color: #fff;
+    font-weight: bold;
+    font-size: 23px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.dashboard_content
+{
+    display: flex;
+    min-height: 100%;
+}
+
+.left_content
+{
+    max-width: 140px;
+    min-width: 140px;
+    display: flex;
+}
+
+.right_content
+{
+    position: relative;
+    width: 100%;
+}
+
+.menu_picture
+{
+    position: absolute;
+    left: -120px;
+
+    width: 80px;
+    height: 80px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0, 0.8);
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.main_menu_item
+{
+    display: flex;
+    justify-content: space-around;
+
+    min-height: 130px;
+    padding: 20px;
+
+    border-bottom: 1px solid #e1e1e1;
+    background-image: url('../../assets/images/right_arrow.svg');
+    background-repeat: no-repeat;
+    background-position: 90% center;
+    background-size: 15px auto;
+}
+
+.menu_item_description
+{
+    width: 100%;
+    min-height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.item_title
+{
+    font-size: 26px;
+}
+
+.item_quantaty
+{
+    font-size: 16px;
+    color: #8e8d8d;
+}
+
+ion-content
+{
+    --background: transparent;
+}
